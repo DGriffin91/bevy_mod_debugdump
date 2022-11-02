@@ -15,13 +15,13 @@ default = ["render_graph"]
 render_graph = ["bevy_render"]
 
 [dependencies]
-bevy_ecs = { git = "https://github.com/jakobhellermann/bevy", branch = "tonemapping-upscaling-passes" }
-bevy_app = { git = "https://github.com/jakobhellermann/bevy", branch = "tonemapping-upscaling-passes" }
-bevy_render = { git = "https://github.com/jakobhellermann/bevy", branch = "tonemapping-upscaling-passes", optional = true }
+bevy_ecs = { git = "https://github.com/bevyengine/bevy", branch = "main" }
+bevy_app = { git = "https://github.com/bevyengine/bevy", branch = "main" }
+bevy_render = { git = "https://github.com/bevyengine/bevy", branch = "main", optional = true }
 pretty-type-name = "1.0"
 
 [dev-dependencies]
-bevy = { git = "https://github.com/jakobhellermann/bevy", branch = "tonemapping-upscaling-passes" }
+bevy = { git = "https://github.com/bevyengine/bevy", branch = "main" }
 
 [[example]]
 name = "print_schedule_graph"
